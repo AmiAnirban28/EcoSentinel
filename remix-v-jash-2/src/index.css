@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+html, body {
+  background-color: #000000;
+  color: #f4f4f5;
+}
+
+/* Subtle dark scrollbar for internal dashboard panels */
+.custom-dashboard-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-dashboard-scrollbar::-webkit-scrollbar-track {
+  background: rgba(24, 24, 27, 0.4);
+  border-radius: 4px;
+}
+.custom-dashboard-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(63, 63, 70, 0.6);
+  border-radius: 4px;
+}
+.custom-dashboard-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.5);
+}
+.custom-dashboard-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(63, 63, 70, 0.6) rgba(24, 24, 27, 0.4);
+}
+
+/* Environmental telemetry uses the same warm instrument tone as the map UI. */
+#environmental-dashboard-section [class*="text-emerald-"] {
+  color: #d2a679 !important;
+}
+
+#environmental-dashboard-section [class*="border-emerald-"] {
+  border-color: rgb(210 166 121 / 35%) !important;
+}
+
+#environmental-dashboard-section [class*="bg-emerald-"] {
+  background-color: rgb(210 166 121 / 12%) !important;
+}
+
+#environmental-dashboard-section [class*="from-emerald-"] {
+  --tw-gradient-from: rgb(210 166 121 / 50%) var(--tw-gradient-from-position) !important;
+  --tw-gradient-to: rgb(210 166 121 / 0%) var(--tw-gradient-to-position) !important;
+}
+
+#environmental-dashboard-section [class*="via-emerald-"] {
+  --tw-gradient-via: rgb(210 166 121 / 20%) var(--tw-gradient-via-position) !important;
+}
+
+#pipeline-section {
+  --color-emerald-300: #dfbf9f;
+  --color-emerald-400: #d2a679;
+  --color-emerald-500: #b78553;
+  --color-emerald-950: #352618;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ecosentinel-workspace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run build --prefix remix-v-jash-2 && npm run build --prefix remix-ecodsentinel-sid-10 -- --base=/maps/",
+    "lint": "npm run lint --prefix remix-v-jash-2"
+  }
+}

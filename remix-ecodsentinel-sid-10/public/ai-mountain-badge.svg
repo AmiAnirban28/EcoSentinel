@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Clip path to keep artwork inside circular emblem -->
+    <clipPath id="circle-emblem-clip">
+      <circle cx="256" cy="256" r="214" />
+    </clipPath>
+  </defs>
+
+  <!-- Circular background badge -->
+  <circle cx="256" cy="256" r="214" fill="#ffffff" />
+
+  <g id="emblem-content">
+    <!-- Outer Circular Rim Border -->
+    <path d="M 46,248 A 214 214 0 0 0 466,248" fill="none" stroke="#1f2428" stroke-width="6.5" stroke-linecap="round" />
+
+    <!-- Sunburst rays -->
+    <g id="sunburst-rays">
+      <line x1="176.8" y1="230.9" x2="112.4" y2="221.8" stroke="#1f2428" stroke-width="2.2" stroke-linecap="round" />
+      <line x1="188.1" y1="225.1" x2="144.4" y2="214.2" stroke="#1f2428" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="176.1" y1="212.9" x2="91.6" y2="182.1" stroke="#1f2428" stroke-width="2.6" stroke-linecap="round" />
+      <line x1="188.6" y1="209.1" x2="152.6" y2="191.6" stroke="#1f2428" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="188.2" y1="199.6" x2="94.9" y2="141.3" stroke="#1f2428" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="199.3" y1="197.7" x2="155.9" y2="163.8" stroke="#1f2428" stroke-width="2" stroke-linecap="round" />
+      <line x1="197.0" y1="185.0" x2="135.9" y2="126.0" stroke="#1f2428" stroke-width="2.4" stroke-linecap="round" />
+      <line x1="208.4" y1="185.3" x2="128.1" y2="89.6" stroke="#1f2428" stroke-width="2.7" stroke-linecap="round" />
+      <line x1="212.4" y1="177.3" x2="178.8" y2="127.6" stroke="#1f2428" stroke-width="2" stroke-linecap="round" />
+      <line x1="223.1" y1="180.2" x2="176.2" y2="91.9" stroke="#1f2428" stroke-width="2.4" stroke-linecap="round" />
+      <line x1="227.5" y1="171.5" x2="177.0" y2="46.4" stroke="#1f2428" stroke-width="2.8" stroke-linecap="round" />
+      <line x1="236.2" y1="172.8" x2="216.9" y2="105.5" stroke="#1f2428" stroke-width="2.1" stroke-linecap="round" />
+      <line x1="243.8" y1="173.1" x2="223.0" y2="54.9" stroke="#1f2428" stroke-width="2.6" stroke-linecap="round" />
+      <line x1="249.4" y1="166.3" x2="236.7" y2="21.8" stroke="#1f2428" stroke-width="2.9" stroke-linecap="round" />
+      <line x1="256.0" y1="174.0" x2="256.0" y2="94.0" stroke="#1f2428" stroke-width="2.2" stroke-linecap="round" />
+      <line x1="262.5" y1="167.3" x2="274.7" y2="27.8" stroke="#1f2428" stroke-width="2.8" stroke-linecap="round" />
+      <line x1="269.4" y1="173.3" x2="281.8" y2="109.5" stroke="#1f2428" stroke-width="2" stroke-linecap="round" />
+      <line x1="278.8" y1="167.4" x2="315.4" y2="47.9" stroke="#1f2428" stroke-width="2.7" stroke-linecap="round" />
+      <line x1="284.1" y1="175.7" x2="303.7" y2="129.7" stroke="#1f2428" stroke-width="1.9" stroke-linecap="round" />
+      <line x1="295.8" y1="170.3" x2="349.1" y2="74.1" stroke="#1f2428" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="298.4" y1="181.4" x2="341.5" y2="119.9" stroke="#1f2428" stroke-width="2.2" stroke-linecap="round" />
+      <line x1="308.5" y1="181.6" x2="393.8" y2="83.5" stroke="#1f2428" stroke-width="2.7" stroke-linecap="round" />
+      <line x1="312.5" y1="191.1" x2="353.4" y2="154.3" stroke="#1f2428" stroke-width="1.9" stroke-linecap="round" />
+      <line x1="324.0" y1="192.6" x2="400.8" y2="136.8" stroke="#1f2428" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="321.0" y1="204.5" x2="359.9" y2="182.0" stroke="#1f2428" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="333.7" y1="207.4" x2="406.7" y2="174.9" stroke="#1f2428" stroke-width="2.4" stroke-linecap="round" />
+      <line x1="332.1" y1="217.3" x2="379.6" y2="201.8" stroke="#1f2428" stroke-width="1.8" stroke-linecap="round" />
+      <line x1="344.0" y1="223.3" x2="407.6" y2="209.8" stroke="#1f2428" stroke-width="2.2" stroke-linecap="round" />
+      <line x1="340.5" y1="233.1" x2="380.3" y2="228.9" stroke="#1f2428" stroke-width="1.7" stroke-linecap="round" />
+    </g>
+
+    <!-- Sun in the center behind central mountain -->
+    <circle cx="256" cy="242" r="46" fill="none" stroke="#1f2428" stroke-width="8" />
+
+    <!-- Mountain massifs with black & white faceted shading -->
+    <g id="mountains">
+      <!-- White mountain body base fill -->
+      <path d="M 45,232 
+               L 105,178 
+               L 155,236 
+               L 190,212 
+               L 225,270 
+               L 258,242 
+               L 292,295 
+               L 366,204 
+               L 395,242 
+               L 426,172 
+               L 470,236 
+               A 214 214 0 0 1 45,232 Z" 
+            fill="#ffffff" />
+
+      <!-- Left Mountain: Solid black shaded west face -->
+      <path d="M 45,232 
+               L 105,178 
+               L 126,220 
+               L 112,246 
+               L 138,288 
+               L 120,330 
+               L 148,370 
+               L 130,420 
+               A 214 214 0 0 1 45,232 Z" 
+            fill="#1f2428" />
+
+      <!-- Left Mountain Ridge Crevasses & Facet Shadows -->
+      <path d="M 105,178 L 132,238 L 122,258 L 146,305 L 134,352 L 158,400" 
+            fill="none" stroke="#1f2428" stroke-width="4.5" stroke-linejoin="round" />
+      <path d="M 132,238 L 155,236" fill="none" stroke="#1f2428" stroke-width="3" />
+      <path d="M 122,258 L 175,285 L 160,320" fill="none" stroke="#1f2428" stroke-width="2.5" />
+      <path d="M 105,178 L 88,230 L 102,280" fill="none" stroke="#ffffff" stroke-width="3" />
+
+      <!-- Sub-peak Left Center -->
+      <path d="M 190,212 
+               L 214,250 
+               L 198,280 
+               L 222,330 
+               L 205,370 
+               L 218,410 
+               L 182,410 
+               L 165,340 
+               L 178,275 
+               Z" 
+            fill="#1f2428" />
+
+      <!-- Central Peak & Dominant Jagged Center Shadows -->
+      <path d="M 258,242 
+               L 242,288 
+               L 255,315 
+               L 235,372 
+               L 248,420 
+               L 282,420 
+               L 272,360 
+               L 288,320 
+               L 268,275 
+               Z" 
+            fill="#1f2428" />
+      <path d="M 258,242 L 230,295 L 244,340" fill="none" stroke="#1f2428" stroke-width="3.5" />
+      <path d="M 258,242 L 292,295" fill="none" stroke="#1f2428" stroke-width="4" />
+
+      <!-- Right Alpine Massif: Rugged Peaks & Shadows -->
+      <!-- Mid-right peak shadow -->
+      <path d="M 366,204 
+               L 384,242 
+               L 370,270 
+               L 392,320 
+               L 375,370 
+               L 395,420 
+               L 355,420 
+               L 345,330 
+               L 358,275 
+               Z" 
+            fill="#1f2428" />
+      <path d="M 366,204 L 340,260 L 352,310" fill="none" stroke="#1f2428" stroke-width="3.5" />
+
+      <!-- Towering Far-Right Peak & Black Shaded East Slope -->
+      <path d="M 426,172 
+               L 470,236 
+               A 214 214 0 0 1 405,432 
+               L 400,390 
+               L 418,340 
+               L 402,295 
+               L 428,245 
+               L 415,210 
+               Z" 
+            fill="#1f2428" />
+      <path d="M 426,172 L 395,242 L 405,290" fill="none" stroke="#1f2428" stroke-width="4" />
+      <path d="M 415,210 L 445,245 L 435,280" fill="none" stroke="#ffffff" stroke-width="3" />
+      <path d="M 428,245 L 458,285" fill="none" stroke="#ffffff" stroke-width="2.5" />
+
+      <!-- Center foreground slope white/black contrast fissures -->
+      <path d="M 292,295 L 318,345 L 305,385" fill="none" stroke="#1f2428" stroke-width="3.5" />
+      <path d="M 318,345 L 345,365" fill="none" stroke="#1f2428" stroke-width="2.5" />
+    </g>
+
+    <!-- Silhouette Pine Forest along the base -->
+    <g id="pine-trees">
+      <path d="M 142 385 L 143.3 391.4 L 145.2 401.0 L 144.6 407.4 L 148.4 417.0 L 145.8 423.4 L 151.6 433.0 L 147.1 439.4 L 154.8 449.0 L 148.4 455.4 L 158.0 465.0 L 145.2 465.0 L 138.8 465.0 L 126.0 465.0 L 135.6 455.4 L 129.2 449.0 L 136.9 439.4 L 132.4 433.0 L 138.2 423.4 L 135.6 417.0 L 139.4 407.4 L 138.8 401.0 L 140.7 391.4 Z" fill="#1f2428" />
+      <path d="M 175 365 L 176.6 373.0 L 179.0 385.0 L 178.2 393.0 L 183.0 405.0 L 179.8 413.0 L 187.0 425.0 L 181.4 433.0 L 191.0 445.0 L 183.0 453.0 L 195.0 465.0 L 179.0 465.0 L 171.0 465.0 L 155.0 465.0 L 167.0 453.0 L 159.0 445.0 L 168.6 433.0 L 163.0 425.0 L 170.2 413.0 L 167.0 405.0 L 171.8 393.0 L 171.0 385.0 L 173.4 373.0 Z" fill="#1f2428" />
+      <path d="M 205 395 L 206.3 401.0 L 208.2 410.0 L 207.6 416.0 L 211.4 425.0 L 208.8 431.0 L 214.6 440.0 L 210.1 446.0 L 217.8 455.0 L 211.4 461.0 L 221.0 470.0 L 208.2 470.0 L 201.8 470.0 L 189.0 470.0 L 198.6 461.0 L 192.2 455.0 L 199.9 446.0 L 195.4 440.0 L 201.2 431.0 L 198.6 425.0 L 202.4 416.0 L 201.8 410.0 L 203.7 401.0 Z" fill="#1f2428" />
+      <path d="M 225 410 L 226.1 414.8 L 227.8 422.0 L 227.2 426.8 L 230.6 434.0 L 228.4 438.8 L 233.4 446.0 L 229.5 450.8 L 236.2 458.0 L 230.6 462.8 L 239.0 470.0 L 227.8 470.0 L 222.2 470.0 L 211.0 470.0 L 219.4 462.8 L 213.8 458.0 L 220.5 450.8 L 216.6 446.0 L 221.6 438.8 L 219.4 434.0 L 222.8 426.8 L 222.2 422.0 L 223.9 414.8 Z" fill="#1f2428" />
+      <path d="M 255 388 L 256.4 394.8 L 258.6 405.0 L 257.9 411.8 L 262.2 422.0 L 259.3 428.8 L 265.8 439.0 L 260.8 445.8 L 269.4 456.0 L 262.2 462.8 L 273.0 473.0 L 258.6 473.0 L 251.4 473.0 L 237.0 473.0 L 247.8 462.8 L 240.6 456.0 L 249.2 445.8 L 244.2 439.0 L 250.7 428.8 L 247.8 422.0 L 252.1 411.8 L 251.4 405.0 L 253.6 394.8 Z" fill="#1f2428" />
+      <path d="M 280 400 L 281.2 405.6 L 283.0 414.0 L 282.4 419.6 L 286.0 428.0 L 283.6 433.6 L 289.0 442.0 L 284.8 447.6 L 292.0 456.0 L 286.0 461.6 L 295.0 470.0 L 283.0 470.0 L 277.0 470.0 L 265.0 470.0 L 274.0 461.6 L 268.0 456.0 L 275.2 447.6 L 271.0 442.0 L 276.4 433.6 L 274.0 428.0 L 277.6 419.6 L 277.0 414.0 L 278.8 405.6 Z" fill="#1f2428" />
+      <path d="M 305 412 L 306.0 416.8 L 307.6 424.0 L 307.1 428.8 L 310.2 436.0 L 308.1 440.8 L 312.8 448.0 L 309.2 452.8 L 315.4 460.0 L 310.2 464.8 L 318.0 472.0 L 307.6 472.0 L 302.4 472.0 L 292.0 472.0 L 299.8 464.8 L 294.6 460.0 L 300.8 452.8 L 297.2 448.0 L 301.9 440.8 L 299.8 436.0 L 302.9 428.8 L 302.4 424.0 L 304.0 416.8 Z" fill="#1f2428" />
+      <path d="M 336 325 L 337.9 336.6 L 340.8 354.0 L 339.8 365.6 L 345.6 383.0 L 341.8 394.6 L 350.4 412.0 L 343.7 423.6 L 355.2 441.0 L 345.6 452.6 L 360.0 470.0 L 340.8 470.0 L 331.2 470.0 L 312.0 470.0 L 326.4 452.6 L 316.8 441.0 L 328.3 423.6 L 321.6 412.0 L 330.2 394.6 L 326.4 383.0 L 332.2 365.6 L 331.2 354.0 L 334.1 336.6 Z" fill="#1f2428" />
+      <path d="M 365 370 L 366.5 378.0 L 368.8 390.0 L 368.0 398.0 L 372.6 410.0 L 369.6 418.0 L 376.4 430.0 L 371.1 438.0 L 380.2 450.0 L 372.6 458.0 L 384.0 470.0 L 368.8 470.0 L 361.2 470.0 L 346.0 470.0 L 357.4 458.0 L 349.8 450.0 L 358.9 438.0 L 353.6 430.0 L 360.4 418.0 L 357.4 410.0 L 362.0 398.0 L 361.2 390.0 L 363.5 378.0 Z" fill="#1f2428" />
+      <path d="M 395 385 L 396.4 391.8 L 398.4 402.0 L 397.7 408.8 L 401.8 419.0 L 399.1 425.8 L 405.2 436.0 L 400.4 442.8 L 408.6 453.0 L 401.8 459.8 L 412.0 470.0 L 398.4 470.0 L 391.6 470.0 L 378.0 470.0 L 388.2 459.8 L 381.4 453.0 L 389.6 442.8 L 384.8 436.0 L 390.9 425.8 L 388.2 419.0 L 392.3 408.8 L 391.6 402.0 L 393.6 391.8 Z" fill="#1f2428" />
+
+      <!-- Solid curved black forest floor hugging bottom circle rim -->
+      <path d="M 90,395 
+               Q 140,430 200,446 
+               Q 256,455 310,446 
+               Q 370,430 422,395 
+               A 214 214 0 0 1 90,395 Z" 
+            fill="#1f2428" />
+    </g>
+  </g>
+</svg>
