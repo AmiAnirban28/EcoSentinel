@@ -1,5 +1,7 @@
 # EcoSentinel
 
+### Environmental Hazard Monitoring and Early Warning
+
 Environmental hazard monitoring, sensor-network intelligence, and a live
 geospatial globe in one browser application.
 
