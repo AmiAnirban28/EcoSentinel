@@ -9,6 +9,8 @@ playwright-report/
 .vscode/
 .turbo/
 .next/
+.local/
+.gev-cache/
 logs/
 .gev-logs/
 *.log
@@ -17,7 +19,10 @@ logs/
 Thumbs.db
 .env
 .env.*
+.env.*.local
 !.env.example
 !.env.*.example
 !.env.*.sample
 *.local
+testsprite_tests/tmp/
+testsprite_tests/tmp/config.json

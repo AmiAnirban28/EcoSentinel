@@ -1,10 +1,42 @@
 {
-  "name": "ecosentinel-workspace",
+  "name": "ecosentinel-main",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/dev.mjs",
-    "build": "npm run build --prefix remix-v-jash-2 && npm run build --prefix remix-ecodsentinel-sid-10 -- --base=/maps/",
-    "lint": "npm run lint --prefix remix-v-jash-2"
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mapbox/vector-tile": "^3.0.0",
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "cesium": "^1.124.0",
+    "clsx": "^2.1.1",
+    "egm96-universal": "^1.1.1",
+    "lucide-react": "^0.546.0",
+    "mgrs": "^2.1.0",
+    "motion": "^12.23.24",
+    "pbf": "^5.1.2",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "satellite.js": "^6.0.2",
+    "tailwind-merge": "^3.6.0",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.185.4",
+    "@vitejs/plugin-react": "^5.0.4",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3",
+    "vite-plugin-cesium": "^1.2.23",
+    "ws": "^8.21.0"
   }
 }
